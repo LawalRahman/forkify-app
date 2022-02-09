@@ -1,6 +1,7 @@
-import { async } from "regenerator-runtime"
-import { API_KEY, API_URL, PAGE_LENGTH } from "./config"
-import { getJSON, sendJSON } from "./helpers"
+import { async } from "regenerator-runtime";
+import { API_KEY, API_URL, PAGE_LENGTH } from "./config";
+import { getJSON, sendJSON } from "./helpers";
+import {Fraction} from 'fractional';
 
 export const state = {
     recipe: {},

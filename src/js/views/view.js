@@ -1,5 +1,5 @@
-import {Fraction} from 'fractional'
-import icons from '../../img/icons.svg'
+import {Fraction} from 'fractional';
+import icons from '../../img/icons.svg';
 
 export default class View {
     _data

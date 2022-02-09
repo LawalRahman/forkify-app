@@ -1,6 +1,8 @@
 import View from "./view";
 import previewView from "./previewView";
-import icons from '../../img/icons.svg'
+import icons from '../../img/icons.svg';
+
+import {Fraction} from 'fractional';
 
 class BookmarksView extends View{
     _parentElement = document.querySelector('.bookmarks__list')

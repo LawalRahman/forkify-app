@@ -1,16 +1,18 @@
-import * as model from './model.js'
-import { MODAL_CLOSE } from './config.js'
-import recipeView from './views/recipeView.js'
-import searchView from './views/searchView.js'
-import resultView from './views/resultView.js'
-import paginationView from './views/paginationView.js'
-import bookmarksView from './views/bookmarksView.js'
-import addRecipeView from './views/addRecipeView.js'
+import * as model from './model.js';
+import { MODAL_CLOSE } from './config.js';
+import recipeView from './views/recipeView.js';
+import searchView from './views/searchView.js';
+import resultView from './views/resultView.js';
+import paginationView from './views/paginationView.js';
+import bookmarksView from './views/bookmarksView.js';
+import addRecipeView from './views/addRecipeView.js';
 
 
 
-import 'core-js/stable'
-import 'regenerator-runtime/runtime'
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
+
+import {Fraction} from 'fractional'
 
 // if(module.hot){
 //   module.hot.accept()
