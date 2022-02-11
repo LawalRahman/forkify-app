@@ -1,6 +1,5 @@
 import View from "./view";
 import icons from '../../img/icons.svg';
-import {Fraction} from 'fractional';
 
 class PaginationView extends View{
     _parentElement = document.querySelector('.pagination')

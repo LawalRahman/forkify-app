@@ -1,8 +1,6 @@
 import View from "./view";
 import icons from '../../img/icons.svg';
 
-import {Fraction} from 'fractional';
-
 class AddRecipeView extends View{
     _parentElement = document.querySelector('.upload')
     _message = 'Recipe was successfully uploaded'

@@ -2,7 +2,6 @@ import View from "./view";
 import previewView from "./previewView";
 import icons from '../../img/icons.svg';
 
-import {Fraction} from 'fractional';
 
 class ResultsView extends View{
     _parentElement = document.querySelector('.results')
